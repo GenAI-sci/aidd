@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>AI制药领域的数据获取与预处理</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            margin: auto;
+            padding: 20px;
+            max-width: 800px;
+            background: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #35424a;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #e4e4e4;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>AI制药领域的数据获取与预处理</h1>
+    <p>在AI制药领域，生物医药数据的获取与预处理是确保AI模型能够准确分析和预测药物效果的关键步骤。以下是详细的介绍：</p>
+
+    <h2>数据获取</h2>
+    <h3>公开数据库</h3>
+    <ul>
+        <li>ChEMBL：包含生物活性小分子化合物及其目标蛋白的信息。</li>
+        <li>PubChem：提供化学分子及其生物活性测试结果的数据库。</li>
+        <li>DrugBank：综合了详细的药物数据，包括化学、药理学和药代动力学信息。</li>
+        <li>PDB（蛋白质数据库）：包含蛋白质和核酸的三维结构数据。</li>
+        <li>TCGA（癌症基因组图谱）：提供癌症相关的基因组学数据。</li>
+    </ul>
+    <h3> Rdkit/Pymol的使用介绍 </h3>
+    <ul>
+        <li>RDkit的安装与使用方法</li>
+        <li>Pymol的安装与使用方法</li>
+    </ul>
+    <h3>文献数据</h3>
+    <ul>
+        <li>科学期刊和会议论文：通过文本挖掘技术从文献中提取有价值的数据。</li>
+        <li>专利数据库：从药物专利中获取新的化合物及其应用数据。</li>
+    </ul>
+
+    <h2>数据预处理</h2>
+    <h3>数据清洗</h3>
+    <ul>
+        <li>缺失值处理：删除或填补数据中的缺失值。例如，利用均值、中位数或最近邻方法填补缺失值。</li>
+        <li>重复数据删除：确保每条数据的唯一性，避免重复数据影响模型训练。</li>
+        <li>异常值检测与处理：识别并处理数据中的异常值，常用方法包括IQR（四分位距）法和Z-score（标准分数）法。</li>
+    </ul>
+    <h3>数据标准化与归一化</h3>
+    <ul>
+        <li>标准化（Standardization）：将数据转化为均值为0，标准差为1的分布，适用于要求数据服从正态分布的算法。</li>
+        <li>归一化（Normalization）：将数据缩放到指定范围（如0到1），适用于距离度量敏感的算法（如KNN、SVM）。</li>
+    </ul>
+    <h3>特征工程</h3>
+    <ul>
+        <li>特征选择：选择与模型相关性强的特征，常用方法包括过滤法、包裹法和嵌入法。</li>
+        <li>特征提取：从原始数据中提取新的特征，例如通过PCA（主成分分析）降维 </li>
+    <ul>
+    </div>
+    </body>

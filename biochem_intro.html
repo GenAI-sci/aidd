@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>分子生物学基础</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            margin: auto;
+            padding: 20px;
+            max-width: 800px;
+            background: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #35424a;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #e4e4e4;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>分子生物学基础</h1>
+    <p>分子生物学是研究生命过程的分子基础的科学，主要涉及DNA、RNA和蛋白质的结构和功能。</p>
+
+    <h2>1. DNA（脱氧核糖核酸）</h2>
+    <p><strong>结构：</strong>DNA是由核苷酸组成的双螺旋结构，每个核苷酸包括一个磷酸基团、一个脱氧核糖和一个碱基（腺嘌呤[A]、胸腺嘧啶[T]、鸟嘌呤[G]、胞嘧啶[C]）。</p>
+    <p><strong>功能：</strong>DNA携带遗传信息，通过复制将信息传递给子代。基因是DNA上的功能片段，编码特定蛋白质。</p>
+    <h3>AI课题：基因组数据分析</h3>
+    <ul>
+        <li>具体内容：使用深度学习模型（如卷积神经网络和递归神经网络）分析基因组序列，预测基因的功能区域、突变的影响等。</li>
+        <li>参考信息：DeepVariant（Google）是一个利用深度学习进行变异检测的工具。</li>
+    </ul>
+    <h2>2. RNA（核糖核酸）</h2>
+    <p><strong>结构：</strong>RNA也是由核苷酸组成，但通常是单链。每个核苷酸包括一个磷酸基团、一个核糖和一个碱基（腺嘌呤[A]、尿嘧啶[U]、鸟嘌呤[G]、胞嘧啶[C]）。</p>
+    <p><strong>功能：</strong>RNA在蛋白质合成中起重要作用，有三种主要类型：</p>
+    <ul>
+        <li><strong>信使RNA（mRNA）：</strong>将DNA的遗传信息传递到核糖体。</li>
+        <li><strong>转运RNA（tRNA）：</strong>在蛋白质合成中转运氨基酸。</li>
+        <li><strong>核糖体RNA（rRNA）：</strong>构成核糖体的核心，催化蛋白质合成。</li>
+    </ul>
+    <h3>AI课题：RNA结构预测与功能注释</h3>
+    <ul>
+        <li>具体内容：使用机器学习算法预测RNA的二级和三级结构，结合序列信息进行RNA功能注释。</li>
+        <li>参考信息：RNAstructure是一个预测RNA结构的工具包，结合了多种机器学习方法。</li>
+    </ul>
+    <h2>3. 蛋白质</h2>
+    <p><strong>结构：</strong>蛋白质由氨基酸通过肽键连接形成。蛋白质具有四级结构：</p>
+    <ol>
+        <li><strong>一级结构：</strong>氨基酸序列。</li>
+        <li><strong>二级结构：</strong>α螺旋和β折叠。</li>
+        <li><strong>三级结构：</strong>整个多肽链的三维结构。</li>
+        <li><strong>四级结构：</strong>多条多肽链的组合。</li>
+    </ol>
+    <p><strong>功能：</strong>蛋白质在细胞中执行各种功能，如催化（酶）、结构支持、运输和信号传递。</p>
+    <h3>AI课题：蛋白质结构预测与功能预测 </h3>
+    <ul>
+        <li>具体内容：使用深度学习模型（如AlphaFold）预测蛋白质的三级结构和四级结构，分析蛋白质-蛋白质相互作用。</li>
+        <li>参考信息：AlphaFold（DeepMind）已经显著提高了蛋白质结构预测的准确性。</li>
+    </ul>
+    <h2>4. 基因表达与调控</h2>
+    <p><strong>转录：</strong>DNA上的基因被转录为mRNA。</p>
+    <p><strong>翻译：</strong>mRNA在核糖体上被翻译成蛋白质。</p>
+    <p><strong>调控：</strong>基因表达受到多层次的调控，包括转录水平、RNA加工、翻译和蛋白质修饰。</p>
+    <h3>AI课题：基因表达数据分析与调控网络构建 </h3>
+    <ul>
+        <li>具体内容：使用机器学习算法（如随机森林和支持向量机）分析高通量基因表达数据，构建和分析基因调控网络。</li>
+        <li>参考信息：工具如Seurat和SCENIC用于单细胞RNA测序数据的分析和基因调控网络构建。</li>
+    </ul>
+    <h1>化学基础</h1>
+    <p>化学是研究物质的组成、结构、性质及其变化规律的科学。</p>
+
+    <h2>1. 原子与分子</h2>
+    <p><strong>原子：</strong>物质的基本单位，由质子、中子和电子组成。质子带正电，电子带负电，中子不带电。</p>
+    <p><strong>分子：</strong>由两个或多个原子通过化学键结合形成。分子是化学反应的基本单位。</p>
+
+    <h3>AI课题：分子动力学模拟与分子属性预测</h3>
+    <ul>
+        <li>具体内容：使用机器学习模型（如图神经网络）预测分子属性，模拟分子动力学，研究分子间的相互作用。</li>
+        <li>参考信息：DeepChem是一个开源工具包，专注于应用深度学习进行化学模拟。</li>
+    </ul>
+    <h2>2. 化学键</h2>
+    <ul>
+        <li><strong>共价键：</strong>原子共享电子对形成的化学键。</li>
+        <li><strong>离子键：</strong>通过静电引力结合的正负离子形成的化学键。</li>
+        <li><strong>氢键：</strong>氢原子与氟、氧或氮原子之间的弱相互作用。</li>
+    </ul>
+    <h3>AI课题：化学键类型预测与化合物合成路径规划</h3>
+    <ul>
+        <li>具体内容：使用机器学习算法预测化学键的类型和强度，规划化合物的合成路径。</li>
+        <li>参考信息：Chemprop是一种基于图神经网络的工具，用于预测分子性质。</li>
+    </ul>
+    <h2>3. 物质的状态与性质</h2>
+    <ul>
+        <li><strong>固态：</strong>具有固定形状和体积，分子紧密排列。</li>
+        <li><strong>液态：</strong>具有固定体积但无固定形状，分子较为自由移动。</li>
+        <li><strong>气态：</strong>无固定形状和体积，分子高速运动，间距较大。</li>
+    </ul>
+    <h3>AI课题：材料科学中的相变与物性预测</h3>
+    <ul>
+        <li>具体内容：使用机器学习模型（如随机森林和深度神经网络）预测材料的相变、热力学性质和机械性质。</li>
+        <li>参考信息：Materials Project和AFLOW是用于材料性质预测的数据库和工具。</li>
+    </ul>
+    <h2>4. 化学反应</h2>
+    <p><strong>反应类型：</strong></p>
+    <ul>
+        <li><strong>合成反应：</strong>多个物质结合生成新的物质。</li>
+        <li><strong>分解反应：</strong>复杂物质分解为简单物质。</li>
+        <li><strong>置换反应：</strong>元素在化合物中互相置换。</li>
+        <li><strong>酸碱反应：</strong>酸和碱反应生成盐和水。</li>
+    </ul>
+    <p><strong>反应速率与平衡：</strong></p>
+    <ul>
+        <li><strong>反应速率：</strong>受温度、浓度、催化剂等因素影响。</li>
+        <li><strong>化学平衡：</strong>在反应速率相等时达到的动态平衡状态。</li>
+    </ul>
+    <h3>AI课题：反应速率预测与化学反应优化 </h3>
+    <ul>
+        <li>具体内容：使用机器学习算法预测化学反应的速率，优化反应条件和催化剂设计。</li>
+        <li>参考信息：Reaxys和SciFinder是常用的化学反应数据库，结合了机器学习算法进行反应预测。</li>
+    </ul>
+
+    <p>分子生物学和化学基础的结合为生命科学的发展提供了重要的理论支持和研究手段。这两个学科在基因工程、药物开发、环境保护等领域都有广泛应用。</p>
+    </div>
+</body>
+</html>

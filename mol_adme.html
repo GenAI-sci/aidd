@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>药物分子的ADME预测课程</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            margin: auto;
+            padding: 20px;
+            max-width: 800px;
+            background: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #35424a;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #e4e4e4;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>药物分子的ADME预测课程</h1>
+    </header>
+    <div class="container">
+        <section>
+            <h2>2. 药物分子的ADME预测</h2>
+
+            <h3>2.1 训练数据的制备</h3>
+            <ul>
+                <li><strong>数据来源：</strong>药物数据库（如PubChem、ChEMBL）</li>
+                <li><strong>数据预处理：</strong>分子表示（如SMILES格式转化为分子图或分子指纹）</li>
+                <li><strong>数据清洗：</strong>去除冗余和噪声数据，标准化处理</li>
+            </ul>
+
+            <h3>2.2 模型结构的设计</h3>
+            <ul>
+                <li><strong>常用模型：</strong>图神经网络（GNN）、变分自编码器（VAE）、递归神经网络（RNN）</li>
+                <li><strong>具体实现：</strong>如何构建分子图并通过GNN提取特征，利用VAE进行分子生成与优化</li>
+            </ul>
+
+            <h3>2.3 目标函数的设定</h3>
+            <ul>
+                <li><strong>常用目标函数：</strong>均方误差（MSE）、对比损失、二分类交叉熵</li>
+                <li><strong>具体场景：</strong>回归任务（如溶解度预测），分类任务（如毒性预测）</li>
+            </ul>
+
+            <h3>2.4 评估体系的构建</h3>
+            <ul>
+                <li><strong>评估指标：</strong>均方误差（MSE）、ROC-AUC、PR-AUC</li>
+                <li><strong>验证方法：</strong>留一验证、时序验证</li>
+                <li><strong>实验分析：</strong>模型性能对比，不同模型架构和超参数的影响</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
