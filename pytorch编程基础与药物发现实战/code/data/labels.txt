@@ -1,0 +1,2 @@
+shirt-0.jpg 0
+shoe-0.jpg 1
